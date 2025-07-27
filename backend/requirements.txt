@@ -1,0 +1,15 @@
+# requirements.txt
+fastapi
+uvicorn[standard]
+chromadb
+langchain
+langchain_chroma
+langchain-openai
+faiss-cpu # Or faiss-gpu if you have a compatible GPU
+python-dotenv
+tiktoken # For token counting in LangChain
+# Additional dependencies for the mental health model
+pydantic
+scikit-learn
+numpy
+pandas

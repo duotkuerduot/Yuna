@@ -1,0 +1,19 @@
+/* Add any custom CSS here if needed, otherwise Tailwind handles most styling */
+/* For example, if you want specific scrollbar styles */
+.flex-1.overflow-y-auto::-webkit-scrollbar {
+  width: 8px;
+}
+
+.flex-1.overflow-y-auto::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+.flex-1.overflow-y-auto::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+.flex-1.overflow-y-auto::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
